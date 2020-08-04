@@ -1,3 +1,3 @@
-#天天向上的力量
-你要做什么
-
+# 
+#print('hello world')
+print("hello world"

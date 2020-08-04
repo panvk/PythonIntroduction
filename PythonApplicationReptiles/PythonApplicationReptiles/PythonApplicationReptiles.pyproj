@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>51b84188-2f44-49f1-87b6-1f24e96c3b2c</ProjectGuid>
+    <ProjectGuid>954cf45c-5d26-4044-9269-3912da2ba7f1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplicationIn.py</StartupFile>
+    <StartupFile>PythonApplicationReptiles.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonApplicationIn</Name>
-    <RootNamespace>PythonApplicationIn</RootNamespace>
+    <Name>PythonApplicationReptiles</Name>
+    <RootNamespace>PythonApplicationReptiles</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,20 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="DownPic.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="module1.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="OctagonalFigure.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="OctagonProw.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PythonApplicationIn.py" />
-    <Compile Include="TempConvert.py">
+    <Compile Include="PythonApplicationReptiles.py" />
+    <Compile Include="ReptilesGrilPic.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
