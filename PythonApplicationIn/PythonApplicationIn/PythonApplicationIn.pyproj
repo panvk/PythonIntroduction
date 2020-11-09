@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>51b84188-2f44-49f1-87b6-1f24e96c3b2c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplicationIn.py</StartupFile>
+    <StartupFile>daydayup-demo3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="daydayup-demo3.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DownPic.py">
       <SubType>Code</SubType>
     </Compile>
