@@ -57,22 +57,6 @@
 #("笨办法"试错)
 
 #DayDayupQ4.py
-def dayUP(df):
-    dayup = 1
-    for i in range(365):
-        if i % 7 in [6,0]:
-            dayup = dayup * (1 - 0.01)
-        else:
-            dayup = dayup * (1 + df)
-    return dayup
-dayfactor = 0.01
-while dayUP(dayfactor) < 37.78:
-    dayfactor += 0.001
-print("工作日的努力参数是: {:.3f}".format(dayfactor))
-
-
-
-#DayDayUpQ4.py
 ##def dayUP(df):
 ##    dayup = 1
 ##    for i in range(365):
@@ -84,5 +68,78 @@ print("工作日的努力参数是: {:.3f}".format(dayfactor))
 ##dayfactor = 0.01
 ##while dayUP(dayfactor) < 37.78:
 ##    dayfactor += 0.001
-##print("工作日的努力参数是：{:.3f} ".format(dayfactor))
+##print("工作日的努力参数是: {:.3f}".format(dayfactor))
+##
 
+#pythonDraw.py
+##import turtle
+##turtle.setup(650,350,200,200)
+##turtle.penup()
+##turtle.fd(-250)
+##turtle.down()
+##turtle.pensize(25)
+##turtle.pencolor("purple")
+##turtle.seth(-40)
+##for  i in range(4):
+##    turtle.circle(40,80)
+##    turtle.circle(-40,80)
+##turtle.circle(40,80/40)
+##turtle.fd(40)
+##turtle.circle(16,180)
+##turtle.fd(40 * 2/3)
+##turtle.done()
+
+#绘制一个正方形
+#import turtle 
+#turtle.setup(650,350,200,200)   #设定起点
+#turtle.penup()  #画笔抬起
+#turtle.fd(200)  #前进
+#turtle.down()   #画笔落下
+#turtle.pensize(25)
+#turtle.pencolor("purple")
+#turtle.seth(-40)
+#turtle.right(90)   # 先右选择画第二个边
+#turtle.penup()  #画笔抬起
+#turtle.fd(200)  #前进
+#turtle.down()   #画笔落下
+#turtle.done()
+
+#import turtle         #导入
+#turtle.title("画正方形")
+#turtle.pensize(5)      #画笔大小为5
+#turtle.pencolor("black") #画笔颜色为红
+#for i in range(4):       #循环四次
+#    turtle.forward(200)   #前进200
+#    turtle.left(90)      #左转90度
+#turtle.done()           #导入结束
+
+#正六边形
+#import turtle
+#turtle.pensize(5)
+#turtle.pencolor("black")
+#for i in range(6):
+#    turtle.fd(200)
+#    turtle.left(60)
+
+#正三角行
+#import turtle
+#turtle.pensize(5)
+#turtle.pencolor("black")
+#for i in range(3):
+#    turtle.fd(200)
+#    turtle.left(120)
+
+#正五边形
+#import turtle
+#turtle.pensize(5)
+#turtle.pencolor("black")
+#for i in range(5):
+#    turtle.fd(200)
+#    turtle.left(72)
+
+#TwoRoundDraw.py 一共9条边，共2圈，每次左转角度为80度（720/9）。
+import turtle as t
+t.pensize(2)
+for i in range(9):
+    t.fd(150)
+    t.left(80)  #720/9
